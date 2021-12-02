@@ -1,0 +1,62 @@
+	body{
+        background-image:url("media/COVID19.jpg");
+        text-align: center;
+        }
+
+         @font-face{
+        font-family: LuloClean;
+        src: url("fonts/LuloCLean.ttf");
+        }
+		
+		@font-face{
+        font-family: Kepler;
+        src: url("fonts/Kepler Std Regular.otf");
+        }
+
+        @font-face{
+        font-family: MuseoSlab;
+        src: url("fonts/Museo_Slab_300.otf");
+        }
+
+        .title{
+        font-family: LuloClean;
+        }
+
+        .tab{
+        font-family: Kepler;
+        }
+
+        .tabStyle{
+        color:white;
+        text-decoration:none;
+        }
+
+        .tabStyle:hover{
+        color: #DCDCDC;
+        }
+
+        .loginContent{
+        display: none;
+        position:absolute;
+        right:0;
+        min-width: 70px;
+        font-size:15px;
+        }
+
+        .loginContent a{
+        background-color:white;
+        color:black;
+        padding:10px;
+        display:block;
+        text-decoration: none;
+        }
+
+        .login:hover {
+		color:#808080;
+        display:block;
+        cursor:pointer;
+        }
+
+        .loginContent a:hover{
+        color:#808080;
+        }
